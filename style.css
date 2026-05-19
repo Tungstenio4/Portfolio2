@@ -5,6 +5,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: 'Poppins';
+    list-style: none;
 }
 header{
     position: fixed;
@@ -43,7 +44,7 @@ li a{
 }
 li a:before{
     position: absolute;
-    content: '';
+    content:'';
     width: 0;
     left: 0;
     height: 5px;
@@ -140,6 +141,15 @@ section{
 .socials{
     display: flex;
     gap: 2rem;
+}
+.socials a{
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: black;
+}
+.socials a:hover{
+    transform: scale(1.1);
 }
 .socials i{
     font-size: 2.5rem;
