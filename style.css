@@ -215,7 +215,7 @@ section{
     background-color: rgb(219, 219, 219);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: linear-gradient(to bottom, #009dff, #ff00ff);
+    background-color: rgb(240, 7, 209);
 }
 .projects-grid{
     display: grid;
